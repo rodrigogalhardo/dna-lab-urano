@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY urano_sender.py .
 
-RUN pip install ../requirements.txt
+RUN pip install requirements.txt
 
 EXPORT PORT=9010
 
